@@ -11,11 +11,11 @@ class CategoriesHListView extends StatefulWidget {
 class _CategoriesHListViewState extends State<CategoriesHListView> {
   int activeIndex = 0;
   static List<String> categories = [
-    'Business',
-    'Career',
     'Marriage',
+    'Career',
     'Family',
     'Health',
+    'Business',
   ];
   @override
   Widget build(BuildContext context) {
@@ -38,4 +38,3 @@ class _CategoriesHListViewState extends State<CategoriesHListView> {
     );
   }
 }
-
