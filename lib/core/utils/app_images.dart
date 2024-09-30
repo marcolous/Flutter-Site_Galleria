@@ -23,7 +23,7 @@ class AppImages {
   );
   static Image image = Image.asset(
     "assets/images/image.png",
-    // fit: BoxFit.fitWidth,
+    fit: BoxFit.cover,
   );
   static Image marriage = Image.asset(
     "assets/images/marriage.png",

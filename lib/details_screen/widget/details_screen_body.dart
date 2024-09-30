@@ -3,6 +3,7 @@ import 'package:gap/gap.dart';
 import 'package:site_galleria/core/utils/no_bounce_scroll_behavior.dart';
 import 'package:site_galleria/core/utils/styles.dart';
 import 'package:site_galleria/details_screen/widget/categories_h_list_view.dart';
+import 'package:site_galleria/details_screen/widget/categories_v_list_view.dart';
 import 'package:site_galleria/details_screen/widget/custom_padding.dart';
 import 'package:site_galleria/details_screen/widget/search_widget.dart';
 
@@ -25,10 +26,13 @@ class DetailsScreenBody extends StatelessWidget {
           const Gap(24),
           const SearchWidget(),
           const Gap(24),
-          const CategoriesHListView()
+          const CategoriesHListView(),
+          const Gap(24),
+          const CategoriesVListView(),
         ],
       ),
     );
   }
 }
+
 
