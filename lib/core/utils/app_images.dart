@@ -56,4 +56,12 @@ class AppImages {
     "assets/images/view.png",
     // fit: BoxFit.fitWidth,
   );
+  static Image circle1 = Image.asset(
+    "assets/images/circle1.png",
+    // fit: BoxFit.fitWidth,
+  );
+  static Image circle2 = Image.asset(
+    "assets/images/circle2.png",
+    // fit: BoxFit.fitWidth,
+  );
 }
