@@ -12,30 +12,36 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Stack(
-        children: [
-          Positioned(
-            left: -300,
-            child: CustomPaint(
-              size: const Size(700, 950),
-              painter: ConcentricCirclesPainter(),
+      body: SizedBox(
+        height: double.infinity,
+        child: Stack(
+          children: [
+            Positioned(
+              left: -300,
+              child: CustomPaint(
+                size: const Size(650, 750),
+                painter: ConcentricCirclesPainter(),
+              ),
             ),
-          ),
-          Align(
-            alignment: Alignment.centerLeft,
-            child: SizedBox(height: 230, child: AppImages.circle1),
-          ),
-          buildPositionedIconAndLabel(
-              'Business', AppImages.business, pi / 3, 180, context),
-          buildPositionedIconAndLabel(
-              'Career', AppImages.career, pi / 4, 350, context),
-          buildPositionedIconAndLabel(
-              'Marriage', AppImages.marriage, pi / 3.3, 550, context),
-          buildPositionedIconAndLabel(
-              'Family', AppImages.family, pi / 2.6, 690, context),
-          buildPositionedIconAndLabel(
-              'Health', AppImages.health, pi / 2.2, 750, context),
-        ],
+            Positioned(
+              top: 300,
+              child: Align(
+                alignment: Alignment.centerLeft,
+                child: SizedBox(height: 150, child: AppImages.circle1),
+              ),
+            ),
+            buildPositionedIconAndLabel(
+                'Business', AppImages.business, pi / 2.3, 50, context),
+            buildPositionedIconAndLabel(
+                'Career', AppImages.career, pi / 5.5, 250, context),
+            buildPositionedIconAndLabel(
+                'Marriage', AppImages.marriage, pi / 3.7, 440, context),
+            buildPositionedIconAndLabel(
+                'Family', AppImages.family, pi / 2.6, 590, context),
+            buildPositionedIconAndLabel(
+                'Health', AppImages.health, pi / 2.05, 640, context),
+          ],
+        ),
       ),
     );
   }

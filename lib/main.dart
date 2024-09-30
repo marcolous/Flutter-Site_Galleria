@@ -5,7 +5,7 @@ import 'package:site_galleria/home_screen/home_screen.dart';
 void main() {
   runApp(
     DevicePreview(
-      enabled: true,
+      enabled: false,
       builder: (context) => const SiteGalleria(),
     ),
   );
