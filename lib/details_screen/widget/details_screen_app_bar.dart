@@ -18,7 +18,6 @@ class DetailsScreenAppBar extends StatelessWidget
           onTap: () => Navigator.pop(context),
           child: AppImages.back,
         ),
-        // const Spacer(),
         const Gap(20),
         Text('Premium Reports', style: Styles.style18SemiBold(context)),
         const Spacer(),
@@ -50,22 +49,9 @@ class CustomAppBarIcon extends StatelessWidget {
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: onTap,
-      child: Container(
+      child: SizedBox(
         width: 30,
         height: 30,
-        //padding: const EdgeInsets.all(11),
-        // decoration: BoxDecoration(
-        //   borderRadius: BorderRadius.circular(100),
-        //   color: Colors.white,
-        //   boxShadow: [
-        //     BoxShadow(
-        //       color: Colors.black.withOpacity(0.08),
-        //       spreadRadius: 2,
-        //       blurRadius: 2,
-        //       offset: const Offset(0, 3),
-        //     ),
-        //   ],
-        // ),
         child: child,
       ),
     );
