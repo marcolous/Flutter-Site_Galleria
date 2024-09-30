@@ -42,7 +42,7 @@ class Styles {
     return TextStyle(
       fontSize: getResponsiveFontSize(context, fontSize: 14),
       fontWeight: FontWeight.w400,
-      color: Colors.black38,
+      color: Colors.white,
       fontFamily: fontFamily,
     );
   }
@@ -51,7 +51,7 @@ class Styles {
     return TextStyle(
       fontSize: getResponsiveFontSize(context, fontSize: 14),
       fontWeight: FontWeight.w500,
-      color: const Color(0xff989898),
+      color: Colors.white,
       fontFamily: fontFamily,
     );
   }
@@ -60,7 +60,7 @@ class Styles {
     return TextStyle(
       fontSize: getResponsiveFontSize(context, fontSize: 14),
       fontWeight: FontWeight.w600,
-      color: const Color(0xffBD6600),
+      color: Colors.white,
       fontFamily: fontFamily,
     );
   }
@@ -69,7 +69,7 @@ class Styles {
     return TextStyle(
       fontSize: getResponsiveFontSize(context, fontSize: 14),
       fontWeight: FontWeight.w900,
-      color: const Color(0xffBD6600),
+      color: Colors.white,
       fontFamily: fontFamily,
     );
   }
@@ -87,7 +87,7 @@ class Styles {
     return TextStyle(
       fontSize: getResponsiveFontSize(context, fontSize: 15),
       fontWeight: FontWeight.w500,
-      color: const Color(0xff8391A1),
+      color: Colors.white,
       fontFamily: fontFamily,
     );
   }
@@ -96,7 +96,7 @@ class Styles {
     return TextStyle(
       fontSize: getResponsiveFontSize(context, fontSize: 16),
       fontWeight: FontWeight.w400,
-      color: Colors.black,
+      color: Colors.white,
       fontFamily: fontFamily,
     );
   }
@@ -105,7 +105,7 @@ class Styles {
     return TextStyle(
       fontSize: getResponsiveFontSize(context, fontSize: 16),
       fontWeight: FontWeight.w600,
-      color: Colors.black,
+      color: Colors.white,
       fontFamily: fontFamily,
     );
   }
@@ -114,7 +114,7 @@ class Styles {
     return TextStyle(
       fontSize: getResponsiveFontSize(context, fontSize: 16),
       fontWeight: FontWeight.w700,
-      color: Colors.black,
+      color: Colors.white,
       fontFamily: fontFamily,
     );
   }
@@ -123,7 +123,7 @@ class Styles {
     return TextStyle(
       fontSize: getResponsiveFontSize(context, fontSize: 17),
       fontWeight: FontWeight.w600,
-      color: Colors.black,
+      color: Colors.white,
       fontFamily: fontFamily,
     );
   }
@@ -132,7 +132,7 @@ class Styles {
     return TextStyle(
       fontSize: getResponsiveFontSize(context, fontSize: 17),
       fontWeight: FontWeight.w700,
-      color: Colors.black,
+      color: Colors.white,
       fontFamily: fontFamily,
     );
   }
@@ -141,7 +141,7 @@ class Styles {
     return TextStyle(
       fontSize: getResponsiveFontSize(context, fontSize: 18),
       fontWeight: FontWeight.w500,
-      color: Colors.black,
+      color: Colors.white,
       fontFamily: fontFamily,
     );
   }
@@ -150,7 +150,7 @@ class Styles {
     return TextStyle(
       fontSize: getResponsiveFontSize(context, fontSize: 18),
       fontWeight: FontWeight.w400,
-      color: const Color(0xff989898),
+      color: const Color(0xff64658A),
       fontFamily: fontFamily,
     );
   }
@@ -168,7 +168,7 @@ class Styles {
     return TextStyle(
       fontSize: getResponsiveFontSize(context, fontSize: 20),
       fontWeight: FontWeight.w400,
-      color: Colors.black,
+      color: Colors.white,
       fontFamily: fontFamily,
     );
   }
@@ -177,7 +177,7 @@ class Styles {
     return TextStyle(
       fontSize: getResponsiveFontSize(context, fontSize: 20),
       fontWeight: FontWeight.w500,
-      color: Colors.black,
+      color: Colors.white,
       fontFamily: fontFamily,
     );
   }
@@ -186,7 +186,7 @@ class Styles {
     return TextStyle(
       fontSize: getResponsiveFontSize(context, fontSize: 20),
       fontWeight: FontWeight.w600,
-      color: Colors.black,
+      color: Colors.white,
       fontFamily: fontFamily,
     );
   }
@@ -195,7 +195,7 @@ class Styles {
     return TextStyle(
       fontSize: getResponsiveFontSize(context, fontSize: 20),
       fontWeight: FontWeight.w700,
-      color: Colors.black,
+      color: Colors.white,
       fontFamily: fontFamily,
     );
   }
@@ -204,7 +204,7 @@ class Styles {
     return TextStyle(
       fontSize: getResponsiveFontSize(context, fontSize: 22),
       fontWeight: FontWeight.w500,
-      color: Colors.black,
+      color: Colors.white,
       fontFamily: fontFamily,
     );
   }
@@ -213,7 +213,7 @@ class Styles {
     return TextStyle(
       fontSize: getResponsiveFontSize(context, fontSize: 22),
       fontWeight: FontWeight.w600,
-      color: Colors.black,
+      color: Colors.white,
       fontFamily: fontFamily,
     );
   }
@@ -231,6 +231,7 @@ class Styles {
     return TextStyle(
       fontSize: getResponsiveFontSize(context, fontSize: 30),
       fontWeight: FontWeight.bold,
+      color: Colors.white,
       fontFamily: fontFamily,
     );
   }
@@ -248,6 +249,7 @@ class Styles {
     return TextStyle(
       fontSize: getResponsiveFontSize(context, fontSize: 43),
       fontWeight: FontWeight.w600,
+      color: Colors.white,
       fontFamily: fontFamily,
     );
   }
@@ -256,6 +258,7 @@ class Styles {
     return TextStyle(
       fontSize: getResponsiveFontSize(context, fontSize: 48),
       fontWeight: FontWeight.w400,
+      color: Colors.white,
       fontFamily: fontFamily,
     );
   }
@@ -264,7 +267,7 @@ class Styles {
     return TextStyle(
       fontSize: getResponsiveFontSize(context, fontSize: 50),
       fontWeight: FontWeight.w600,
-      color: Colors.black,
+      color: Colors.white,
       fontFamily: fontFamily,
     );
   }
